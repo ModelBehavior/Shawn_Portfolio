@@ -1,6 +1,6 @@
 # Shawn_Portfolio
 Data Science Portfolio 
-# Project 1: Car Seats Cost What!?
+# [Project 1: Car Seats Cost What!?](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
 ## Regression Analysis of Car Seat Sales
 ### Questions:
 - What is the relationship between Sales and Price?
