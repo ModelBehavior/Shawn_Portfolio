@@ -20,5 +20,8 @@ From the coefficients, we can conclude that the average unit sales among stores 
 The average car seat sales among stores in the US is 1200 units higher than stores not in the US.
 With all other variables held constant, on average sales will fall by roughly 54 seats for every $1 increase in price.
 Using 10-fold cross-validation, we have an average RMSE of 2.4478658, which means we can expect our predictions to be off by 2.4478658 on average when applied to a new set of data.
+
+![](/images/project1_image)
+
 ### Limitations and Next Steps:
 This analysis only included 2 explanatory variables out of 10. It could be possible for this analysis to give different or better results using more or varying subsets of the explanatory variables, such as the income variable.
