@@ -26,7 +26,7 @@ Using 10-fold cross-validation, we have an average RMSE of 2.4478658, which mean
 ### Limitations and Next Steps:
 This analysis only included 2 explanatory variables out of 10. It could be possible for this analysis to give different or better results using more or varying subsets of the explanatory variables, such as the income variable.
 
-# [Project 2: Whats on The Dollar Menue?](https://github.com/ModelBehavior/McDonalds_EDA)
+# [Project 2: Whats on The Dollar Menu?](https://github.com/ModelBehavior/McDonalds_EDA)
 ## Exploratory Data Analysis on McDonald's Data.
 ### Questions:
 - How many calories does the average McDonald's value meal contain?
