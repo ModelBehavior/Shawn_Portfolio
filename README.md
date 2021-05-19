@@ -64,7 +64,7 @@ Using R ggplot, I will explore this weeks tidytuesday data set to answer questio
 
 # Results
 
-![](/images/Project3_image)
+![](/images/Project3_image.png)
 
 # Limitations and Next steps
 The presentation of the data can be made better using shiny or a BI tool such as Power BI or IBM Cognos for interactivity, and further exploration. Significance can be further tested through statistical tests such as ANOVA or t-tests, to confirm graphical findings.
