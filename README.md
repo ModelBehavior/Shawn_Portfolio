@@ -44,7 +44,7 @@ Group data by category to get summarizations for graphics and reorder levels to 
 ### Limitations and Next Steps:
 The graphs can be improved using shiny to make an interactive dashboard, which can boost the interpretability of the findings to interested parties.
 
-# Project 3: Ask a Manager
+# [Project 3: Ask a Manager](https://github.com/ModelBehavior/TidyTuesday_Ask_a_Manager)
 ## Analysis of Manager salaries
 # Questions
 + Is there a significant difference bewteen salary by gender?
@@ -64,7 +64,7 @@ Using R ggplot, I will explore this weeks tidytuesday data set to answer questio
 
 # Results
 
-![](/images/project3_image)
+![](/images/Project3_image)
 
 # Limitations and Next steps
 The presentation of the data can be made better using shiny or a BI tool such as Power BI or IBM Cognos for interactivity, and further exploration. Significance can be further tested through statistical tests such as ANOVA or t-tests, to confirm graphical findings.
