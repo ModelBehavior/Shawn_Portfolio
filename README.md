@@ -1,4 +1,4 @@
-# Shawn_Portfolio
+# Shawn Portfolio
 Data Science Portfolio 
 # [Project 1: Car Seats Cost What!?](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
 ## Regression Analysis of Car Seat Sales
@@ -92,3 +92,28 @@ I used comparison word cloud for the most common positive and negative words. Th
 # Limitations and Next Steps
 Things we can do to get better results: include not only unigrams but bi-grams, tri-grams, what stopwords make the most sense for my data, include more words in the word bank (I only included 500), we could choose a different weighting other than tfidf, we could try other types of models such as SVM or Naive Bayes.
 
+# [Project 5: Mario Kart 64 World Records]()
+## Exploratory Analysis
+
+# Questions
++ How did the world records develop over time?
++ Which track is the fastest?
++ For which track did the world record improve the most?
++ For how many tracks have shortcuts been discovered?
++ When were shortcuts discovered?
++ On which track does the shortcut save the most time?
++ Which is the longest standing world record?
++ Who is the player with the most world records?
++ Who are recent players?
+
+# Data
+Tidytuesday data set can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-05-25/readme.md). 
+
+# Methodology
+Use R tidyverse to explore and make vizualizations for tidytuesday data
+
+# Results
+![](/images/project5_image)
+
+# Limitations and Next Steps
+Making interactive plots would be the next step.
