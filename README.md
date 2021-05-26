@@ -1,3 +1,6 @@
+---
+title-heading: false
+---
 # Ra'Shawn Howard
 Data Science Portfolio 
 # [Project 1: Car Seats Cost What!?](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
