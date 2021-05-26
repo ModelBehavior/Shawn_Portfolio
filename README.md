@@ -92,7 +92,7 @@ I used comparison word cloud for the most common positive and negative words. Th
 # Limitations and Next Steps
 Things we can do to get better results: include not only unigrams but bi-grams, tri-grams, what stopwords make the most sense for my data, include more words in the word bank (I only included 500), we could choose a different weighting other than tfidf, we could try other types of models such as SVM or Naive Bayes.
 
-# [Project 5: Mario Kart 64 World Records]()
+# [Project 5: Mario Kart 64 World Records](https://github.com/ModelBehavior/Mario_Kart/blob/main/Mario_Kart.Rmd)
 ## Exploratory Analysis
 
 # Questions
