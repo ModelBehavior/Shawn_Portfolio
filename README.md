@@ -1,4 +1,4 @@
-# Shawn Portfolio
+# Ra'Shawn Howard
 Data Science Portfolio 
 # [Project 1: Car Seats Cost What!?](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
 ## Regression Analysis of Car Seat Sales
