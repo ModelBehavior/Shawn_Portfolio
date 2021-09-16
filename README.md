@@ -1,30 +1,22 @@
-# Ra'Shawn Howard
-Data Science Portfolio 
-# [Project 1: Car Seats Cost What!?](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
-## Regression Analysis of Car Seat Sales
-### Questions:
-- What is the relationship between Sales and Price?
-- Can we explain car seat sales by Price, urban(YES or NO), and US(YES or NO)?
-- What can we tell from the coefficients of the model?
-- Can any predictors be removed from the model?
-- How well can this model predict sales?
-- Can this model be extended (can we improve this analysis)?
-### Data:
-The data used for this project comes from the ISLR package. There are 400 observations and 11 variables. 3 of which are factors, and the other 8 are numeric.
-### Methods and Results:
-Regression analysis with Sales as the response and Price, Urban and the US as the explanatory variables. 
-10-fold Cross-validation to see how well the model will fit new data using RMSE as the metric.
-I dropped the Urban variable because of its non-significance in the model.
-Residual plots to check assumptions of the linear model.
-From the coefficients, we can conclude that the average unit sales among stores not in the US are 13.031.
-The average car seat sales among stores in the US is 1200 units higher than stores not in the US.
-With all other variables held constant, on average sales will fall by roughly 54 seats for every $1 increase in price.
-Using 10-fold cross-validation, we have an average RMSE of 2.4478658, which means we can expect our predictions to be off by 2.4478658 on average when applied to a new set of data.
+# [Project 1: Fat Content With IR](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
+## Regression Analysis of Fat content using IR as Predictors
+### Data Description
+Infrared (IR) spectroscopy technology is used to determine the chemical makeup of a substance. The device measures the absorbance of the sample at each individual frequency. This series of measurements creates a spectrum profile which can then be used to determine the chemical makeup of the sample material. A Tecator Infratec Food and Feed Analyzer intrument was used to analyze 215 samples of meat across 100 frequencies. In addition to an IR profile, analytical chemistry determined the percent fat for each sample.
+
+### Goals of Analysis
+If we can establish a predictive relationship between IR spectrum and fat content, then food scientist could predict a sample's fat content, then food scientist could predict a sample's fat content with IR instead of analytical chemistry. This could provide cost savings, since analytical chemistry is  a more expensive, time-consuming process.
+
+### Methodology
+The data was split into a testing and training set, and different preprocessing methods were done. \
+The predictors are highly correlated, so PCA was used to reduce the dimension of the predictor space. \
+Cross-validation was done to find the optimal value of the tuning parameters for models that required this. \
+The different types of models that fit the data were: bagged trees, boosted trees, cubist, linear regression, decision trees, MARS, neural networks, KNN, random forest, and SVM. \
+The neural network model performed the best on the training data with an RMSE of .85088724 and a standard error of 0.03248912, followed by the cubist model.
 
 ![](/images/project1_image)
 
-### Limitations and Next Steps:
-This analysis only included 2 explanatory variables out of 10. It could be possible for this analysis to give different or better results using more or varying subsets of the explanatory variables, such as the income variable.
+### Results 
+Applying the best model to the test set, we get an RMSE of .7274025 with an r-squared of 0.9968596.
 
 # [Project 2: Whats on The Dollar Menu?](https://github.com/ModelBehavior/McDonalds_EDA)
 ## Exploratory Data Analysis on McDonald's Data.
