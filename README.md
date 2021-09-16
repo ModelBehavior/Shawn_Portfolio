@@ -1,4 +1,4 @@
-# [Project 1: Fat Content With IR](https://github.com/ModelBehavior/Car_Seat_Sales/blob/main/Project1.Rmd)
+# [Project 1: Fat Content With IR](https://github.com/ModelBehavior/tecator/blob/main/teactor.Rmd)
 ## Regression Analysis of Fat content using IR as Predictors
 ### Data Description
 Infrared (IR) spectroscopy technology is used to determine the chemical makeup of a substance. The device measures the absorbance of the sample at each individual frequency. This series of measurements creates a spectrum profile which can then be used to determine the chemical makeup of the sample material. A Tecator Infratec Food and Feed Analyzer intrument was used to analyze 215 samples of meat across 100 frequencies. In addition to an IR profile, analytical chemistry determined the percent fat for each sample.
