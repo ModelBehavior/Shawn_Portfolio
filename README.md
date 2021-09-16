@@ -13,7 +13,7 @@ Cross-validation was done to find the optimal value of the tuning parameters for
 The different types of models that fit the data were: bagged trees, boosted trees, cubist, linear regression, decision trees, MARS, neural networks, KNN, random forest, and SVM. \
 The neural network model performed the best on the training data with an RMSE of .85088724 and a standard error of 0.03248912, followed by the cubist model.
 
-![](/images/project1_image)
+![](https://github.com/ModelBehavior/Shawn_Portfolio/blob/main/images/project1_1)
 
 ### Results 
 Applying the best model to the test set, we get an RMSE of .7274025 with an r-squared of 0.9968596.
