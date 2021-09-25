@@ -1,5 +1,5 @@
 
-# [Project 1: Instagram Classification](https://github.com/ModelBehavior/tecator/blob/main/teactor.Rmd)
+# [Project 1: Instagram Classification](https://github.com/ModelBehavior/InstagramSpamClassification/blob/main/Instagram_classification.Rmd)
 ## Spam Account Detection
 ### Data Description
 Fakes and spammers are a major problem on all social media platforms, including Instagram. [kaggler](https://www.kaggle.com/free4ever1/instagram-fake-spammer-genuine-accounts) has personally identified the spammer/fake accounts included in this dataset after carefully examining each instance and as such the dataset has high level of accuracy. The dataset has been collected using a crawler from 15-19, March 2019. The response variable is fake, and is coded 0=genuine and 1=spam. There are 11 predictors in the data:
