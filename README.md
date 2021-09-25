@@ -78,50 +78,8 @@ The neural network model performed the best on the training data with an RMSE of
 ### Results 
 Applying the best model to the test set, we get an RMSE of .7274025 with an r-squared of 0.9968596.
 
-# [Project 3: Whats on The Dollar Menu?](https://github.com/ModelBehavior/McDonalds_EDA)
-## Exploratory Data Analysis on McDonald's Data.
-### Questions:
-- How many calories does the average McDonald's value meal contain?
-- How much do beverages, like soda or coffee, contribute to the overall caloric intake?
-- Does ordering grilled chicken instead of crispy increase a sandwich's nutritional value?
-### Data:
-This [dataset](https://www.kaggle.com/mcdonalds/nutrition-facts) provides a nutrition analysis of every menu item on the US McDonald's menu, including breakfast, beef burgers, chicken and fish sandwiches, fries, salads, soda, coffee and tea, milkshakes, and desserts. The menu items and nutrition facts were scraped from the McDonald's website.
-### Methods:
-Group data by category to get summarizations for graphics and reorder levels to make data more presentable. Filter through data to find Category for Chicken and remove observations that are not grilled or crispy chicken sandwiches such as, removing Filet-O-Fish and Nuggets. Then search through strings to find keyword Grilled, then creating a new variable type with value Grilled if a string contains word Grilled else Crispy. Used t-tests to compare grilled versus crispy chicken means for calories, protein, and total fat. Used t-tests to compare grilled versus crispy chicken means for calories, protein, and total fat. The results of the t-tests show that there is no significant mean difference between the mean calories for grilled and crispy chicken sandwiches. There is a significant mean difference between the protein of crispy and grilled chicken sandwiches. There is a significant mean difference between total fat daily %  of crispy and grilled chicken sandwiches. I used ggplot2 to graph the data to make it presentable and understandable to interested parties.
-- Since there is no difference in calories between crispy and grilled chicken on average, we are worried about protein and total fat. From the t-tests, we can see grilled chicken has more protein on average and less total fat, so we can conclude that grilled chicken increases a sandwich's nutritional value.
-### Results:
 
-![](/images/project2_image)
-
-### Limitations and Next Steps:
-The graphs can be improved using shiny to make an interactive dashboard, which can boost the interpretability of the findings to interested parties.
-
-# [Project 4: Ask a Manager](https://github.com/ModelBehavior/TidyTuesday_Ask_a_Manager)
-## Analysis of Manager salaries
-# Questions
-+ Is there a significant difference bewteen salary by gender?
-+ Is there a sig diff between salary by race?
-+ Do Mangers on average get paid more with more education?
-+ Do older mangers get paid more on average?
-+ Do mangers with more years of experiance get paid more on average?
-
-# Data
-The data this week comes from the Ask a Manager Survey. H/t to Kaija Gahm for sharing it as an issue!
-The salary survey a few weeks ago got a huge response — 24,000+ people shared their salaries and other info, which is a lot of raw data to sift through. Reader Elisabeth Engl kindly took the raw data and analyzed some of the trends in it and here’s what she found. (She asked me to note that she did this as a fun project to share some insights from the survey, rather than as a paid engagement.)
-This data does not reflect the general population; it reflects Ask a Manager readers who self-selected to respond, which is a very different group (as you can see just from the demographic breakdown below, which is very white and very female).
-[Link to data and extra information](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-05-18/readme.md)
-
-# Methodology
-Using R ggplot, I will explore this weeks tidytuesday data set to answer questions about manager salaries.
-
-# Results
-
-![](/images/Project3_image.png)
-
-# Limitations and Next steps
-The presentation of the data can be made better using shiny or a BI tool such as Power BI or IBM Cognos for interactivity, and further exploration. Significance can be further tested through statistical tests such as ANOVA or t-tests, to confirm graphical findings.
-
-# [Project 5: Wait Thats Spam!](https://github.com/ModelBehavior/Spam_Detection/blob/main/Spam%20Prediction.Rmd)
+# [Project 3: Wait Thats Spam!](https://github.com/ModelBehavior/Spam_Detection/blob/main/Spam%20Prediction.Rmd)
 
 ## Sentiment Analysis and Prediction of SMS Messages
 
@@ -143,29 +101,3 @@ I used comparison word cloud for the most common positive and negative words. Th
 
 # Limitations and Next Steps
 Things we can do to get better results: include not only unigrams but bi-grams, tri-grams, what stopwords make the most sense for my data, include more words in the word bank (I only included 500), we could choose a different weighting other than tfidf, we could try other types of models such as SVM or Naive Bayes.
-
-# [Project 6: Mario Kart 64 World Records](https://github.com/ModelBehavior/Mario_Kart/blob/main/Mario_Kart.Rmd)
-## Exploratory Analysis
-
-# Questions
-+ How did the world records develop over time?
-+ Which track is the fastest?
-+ For which track did the world record improve the most?
-+ For how many tracks have shortcuts been discovered?
-+ When were shortcuts discovered?
-+ On which track does the shortcut save the most time?
-+ Which is the longest standing world record?
-+ Who is the player with the most world records?
-+ Who are recent players?
-
-# Data
-Tidytuesday data set can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-05-25/readme.md). 
-
-# Methodology
-Use R tidyverse to explore and make vizualizations for tidytuesday data
-
-# Results
-![](/images/project5_img)
-
-# Limitations and Next Steps
-Making interactive plots would be the next step.
