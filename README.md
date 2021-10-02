@@ -128,6 +128,7 @@ Little preprocessing was done for the tree models. Dummy variables were made for
 # Training Model Results
 We can see that neural network, cubist, and boosted tree models are all within standard errors of each other. We can do a repeated-measures ANOVA to check if there are any differences between the models or use a paired t-test.
 
+![](https://github.com/ModelBehavior/Shawn_Portfolio/blob/main/images/burn_out_train_res.png)
 
 # Results 
 We get a test set RMSE of 0.0534458.
