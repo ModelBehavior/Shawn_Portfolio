@@ -82,6 +82,8 @@ Before modeling, the data was split into a training and testing set, and a seed 
 ### Initail Data Analysis
 Strong relationships can be seen in several of the plots. Resource allocation and designation seems like they can be encoded as a categorical variable. This is hard to see from the plots above, but individual plots of the variables show this. In the plot for mental fatigue score, we can see the fitted line goes below zero, which is problematic since the observed values of burn rate cannot be negative. This could be helped with a transfomation. Looking at the violin/boxplots, we can see that company type as pretty symmetrical distribution with respect to burn rate, as well as identical medians. Gender and wfh setup available appear to have skewed distribution with respect to burn rate and unequal medians. **NOTE: This is not a hypothesis test and could be different**.
 
+![](https://github.com/ModelBehavior/Shawn_Portfolio/blob/main/images/burn_out_eda.png)
+
 # Metrics and Controls
 The metrics used to investigate the models are RMSE, R-squared, CCC, and MAE.
 
@@ -126,7 +128,6 @@ Little preprocessing was done for the tree models. Dummy variables were made for
 # Training Model Results
 We can see that neural network, cubist, and boosted tree models are all within standard errors of each other. We can do a repeated-measures ANOVA to check if there are any differences between the models or use a paired t-test.
 
-![](/images/project1_1)
 
 # Results 
 We get a test set RMSE of 0.0534458.
