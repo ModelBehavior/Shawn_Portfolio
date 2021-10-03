@@ -58,7 +58,7 @@ The best two models were logistic regression and the single-layer neural network
 
 ![](https://github.com/ModelBehavior/Shawn_Portfolio/blob/main/images/Screen%20Shot%202021-09-25%20at%201.02.23%20PM.png)
 
-# [Project 2: Are your Employees Mental Health at Risk?](https://github.com/ModelBehavior/tecator/blob/main/teactor.Rmd)
+# [Project 2: Are your Employees Mental Health at Risk?](https://github.com/ModelBehavior/Burn-Out-Prediction/blob/main/Burn_Out_Prediction.Rmd)
 ## Burn Out Prediction
 ### Data Description
 Globally, World Mental Health Day is celebrated on October 10 each year. The objective of this day is to raise awareness about mental health issues around the world and mobilize efforts in support of mental health. According to an anonymous survey, about 450 million people live with mental disorders that can be one of the primary causes of poor health and disability worldwide. These days when the world is suffering from a pandemic situation, it becomes really hard to maintain mental fitness. The Variables are: 
