@@ -51,12 +51,12 @@ This model was evaluated with tree-based models, up to 100 iterations of boostin
 ### Training Results
 The model results are shown below. The plot show the confidence interval of the resamples over the different metrics. The linear models did just as well as the non-linear models. The best non-linear model is the neural network and the best linear model is the logistic regression. To see if these two models are statistically different a t-test can be performed. I did not do this in this analysis.
 
-![](https://github.com/ModelBehavior/Shawn_Portfolio/blob/main/images/Screen%20Shot%202021-09-25%20at%2012.59.51%20PM.png)
+![](images/Screen%20Shot%202021-09-25%20at%2012.59.51%20PM.png)
 
 # Results
 The best two models were logistic regression and the single-layer neural network. We can see our models dropped in accuracy quite a bit on the testing data, and the logistic regression predicted one more class correctly than the single-layer neural network. The logistic regression model misclassified 12 observations, while the single-layer neural network misclassified 13. Given the simplicity of the logistic regression model, it would be chosen as the overall model. The logistic regression has a false positive rate of 10.77%. And a true positive rate of 91.8%. Meaning when the model predicts genuine, it is right 91.8% of the time, and when the model predicts spam, it is wrong 10.77% of the time.
 
-![](https://github.com/ModelBehavior/Shawn_Portfolio/blob/main/images/Screen%20Shot%202021-09-25%20at%201.02.23%20PM.png)
+![](images/Screen%20Shot%202021-09-25%20at%201.02.23%20PM.png)
 
 # [Project 2: Are your Employees Mental Health at Risk?](https://github.com/ModelBehavior/Burn-Out-Prediction/blob/main/Burn_Out_Prediction.Rmd)
 ## Burn Out Prediction
